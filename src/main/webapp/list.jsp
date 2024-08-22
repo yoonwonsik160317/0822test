@@ -95,9 +95,11 @@
 				</c:forEach>
 			</ul>
 		</nav>
-
+		<c:if test= "${customInfo != null}">
 		<button type="button" class="btn btn-outline-primary"
 			onclick="location.href='write'">글쓰기</button>
+		</c:if>
+		
 	</div>
 
 
